@@ -1,6 +1,6 @@
 ## Live Demo
 
-Check out the live demo of the project here: [Social Sphere on Vercel](https://portfolio-three-steel-31.vercel.app/#)
+Check out the live demo of the project here: [Portfolio on vercel](https://portfolio-three-steel-31.vercel.app/#)
 
 # Getting Started with Create React App
 
