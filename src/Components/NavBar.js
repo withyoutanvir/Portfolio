@@ -31,7 +31,7 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Portfolio" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -90,7 +90,7 @@ export const NavBar = () => {
               >
                 <VscGithubAlt className="icon-class" size={30} />
               </a>
-              <a href="#">
+              <a href="/">
                 <img src={navIcon3} alt="Other Social" />
               </a>
             </div>
