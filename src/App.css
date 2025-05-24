@@ -303,6 +303,7 @@ nav.navbar.scrolled {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 160px;
 }
 .banner .tagline {
   font-weight: 700;
@@ -375,7 +376,7 @@ nav.navbar.scrolled {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: 20px;
 }
 .skill h2 {
 	font-size: 45px;
@@ -705,4 +706,59 @@ nav.navbar.scrolled {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+/*********Photo css*********/
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Space between photo and icons */
+  margin-top: 30px;
+}
+
+.futuristic-photo-box {
+  width: 300px;
+  padding: 10px;
+  border-radius: 16px;
+  background: #111;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+  text-align: center;
+  backdrop-filter: blur(4px);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.futuristic-photo-box:hover {
+  box-shadow: 0 0 45px rgba(0, 255, 255, 0.5);
+}
+
+.profile-photo {
+  width: 100%;
+  border: 2px solid cyan;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+.profile-photo:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.5);
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #00bcd4;
+  font-size: 24px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+  color: #ff4081; /* Hover color */
 }

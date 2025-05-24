@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import projImg5  from "../assets/img/project-img5.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -17,11 +18,17 @@ export const Projects = () => {
       githubUrl: "https://github.com/withyoutanvir/LMS",
     },
     {
+      title: "Auth Lifecycle",
+      description: "Advanced Authentication Lifecycle",
+      imgUrl: projImg5,
+      githubUrl: "https://github.com/withyoutanvir/LMS",
+      deployedUrl:"https://auth-lifecycle.vercel.app/login",
+    },
+    {
       title: "D.I.V.S",
       description: "Decentralized verification System",
       imgUrl: projImg2,
-      githubUrl:
-        "https://github.com/withyoutanvir/Decentralized-Identity-Verification-System",
+      githubUrl: "https://github.com/withyoutanvir/Decentralized-Identity-Verification-System",
     },
     {
       title: "Gemini Clone",
